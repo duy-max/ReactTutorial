@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+.mt-15{
+  margin-top:15px;
+}
+
+.mr-5{
+  margin-right: 5px;
+}
+
+
+.pr-5{
+  margin-right: 5px;
+}
+
+.ml-5{
+  margin-left: 5px;
+}
+
+.fl-r{
+  float: right;
+}
+
+.sort-selected::after{
+  content:"\2714";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0 0 0 10px;
+  display: inline-flex;
+}

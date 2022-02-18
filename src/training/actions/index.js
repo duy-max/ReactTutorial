@@ -1,0 +1,13 @@
+import * as types from "./../constants/actionTypes";   //   ../ là đi ra khỏi action và đang đứng ở training
+export const status = () =>{
+    return { 
+        type:types.TOGGLE_STATUS
+    } ;
+}
+
+export const sort =(sort) =>{
+     return { 
+         type:types.SORT,
+         sort  //sort:sort
+     }
+}
